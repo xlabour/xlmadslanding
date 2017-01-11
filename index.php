@@ -54,7 +54,7 @@ error_reporting(0);
 					<h6 style="color:#777; font-weight:bold;">Masukkan Data Anda:</h6>
 					<form action="./submit.php" method="post">
 						<input type="hidden" name="origin" value="<?php echo $_SERVER['HTTP_REFERER'];?>" autocomplete="off" />
-						<input type="hidden" name="lonlat" id="lonlat" value="" /><!-- LonLat untuk kemudahan Kami dalam mengechek Coverage XL di tempat Anda -->
+						<input type="hidden" name="lonlat" id="lonlat" value="" /> <!-- LonLat untuk kemudahan Kami dalam mengechek Coverage XL di tempat Anda -->
 						<input type="text" name="name" value="" placeholder="Nama" autocomplete="off"  autofocus/><br />
 						<input type="text" name="phone" value="" placeholder="No. Telp / HP" autocomplete="off" /><br />
 						<input type="text" name="address" value="" placeholder="Alamat Lengkap (Optional)" autocomplete="off" /><br />
