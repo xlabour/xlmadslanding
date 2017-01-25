@@ -56,7 +56,7 @@ error_reporting(0);
 						<input type="hidden" name="origin" value="<?php echo $_SERVER['HTTP_REFERER'];?>" autocomplete="off" />
 						<input type="hidden" name="lonlat" id="lonlat" value="" /> <!-- LonLat untuk kemudahan Kami dalam mengechek Coverage XL di tempat Anda -->
 						<input type="text" name="name" value="" placeholder="Nama" autocomplete="off"  autofocus/><br />
-						<input type="number" name="phone" value="" onchange="return event.charCode >= 48 && event.charCode <= 57" placeholder="No. Telp / HP" autocomplete="off" /><br />
+						<input type="number" name="phone" value="" onkeypress="return event.charCode >= 48 && event.charCode <= 57" placeholder="No. Telp / HP" autocomplete="off" /><br />
 						<input type="text" name="address" value="" placeholder="Alamat Lengkap (Optional)" autocomplete="off" /><br />
 						<label><input id="sendlocation" type="checkbox" name="sendlocation" value="1" /> Kirim lokasi saya (<i><a href="javascript:showFAQ();">kenapa?</a></i>)</label>
 						<input type="Submit" name="submit" id="submit" value="Kirim" class="button button-primary"/>
