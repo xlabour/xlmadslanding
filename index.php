@@ -49,7 +49,7 @@ error_reporting(0);
 		<center>
 			<div class="column" style="margin-top: 3%">
 				<div style="position:relative; overflow: show">
-					<img src="header.png" />
+					<img src="mbbindovision_smallbanner_top.jpg" />
 					<br /> <br />
 					<h6 style="color:#777; font-weight:bold;">Masukkan Data Anda:</h6>
 					<form action="./submit.php" method="post">
