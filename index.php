@@ -31,7 +31,7 @@ error_reporting(0);
   <script src="geo.js"></script>
   <script language="javascript">
 	if (location.protocol != 'https:'){
-		location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+		//location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
 	}
 
 
@@ -58,8 +58,11 @@ error_reporting(0);
 						<input type="text" name="name" value="" placeholder="Nama" autocomplete="off"  autofocus/><br />
 						<input type="number" name="phone" value="" onkeypress="return event.charCode >= 48 && event.charCode <= 57" placeholder="No. Telp / HP" autocomplete="off" /><br />
 						<input type="text" name="address" value="" placeholder="Alamat Pemasangan Super Bundle" autocomplete="off" /><br />
+						<!--textarea name="address" rows="5" placeholder="Alamat Pemasangan Super Bundle" autocomplete="off"></textarea-->
 						<label><input id="sendlocation" type="checkbox" name="sendlocation" value="1" /> Kirim lokasi saya (<i><a href="javascript:showFAQ();">kenapa?</a></i>)</label>
 						<input type="Submit" name="submit" id="submit" value="Kirim" class="button button-primary"/>
+						<br /><br />
+						<span style="font-size:10pt;"><i>Penggunaan paket ini untuk area 4G LTE XL,<br />Cek lokasi instalasi perangkatmu <a target="_blank" href="http://4g.xl.co.id/coverage">disini</a></i></span>
 					</form>
 				</div>
 			</div>
