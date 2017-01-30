@@ -62,7 +62,7 @@ error_reporting(0);
 						<label><input id="sendlocation" type="checkbox" name="sendlocation" value="1" /> Kirim lokasi saya (<i><a href="javascript:showFAQ();">kenapa?</a></i>)</label>
 						<input type="Submit" name="submit" id="submit" value="Kirim" class="button button-primary"/>
 						<br /><br />
-						<span style="font-size:10pt;"><i>Penggunaan paket ini untuk area 4G LTE XL,<br />Cek lokasi instalasi perangkatmu <a target="_blank" href="http://4g.xl.co.id/coverage">disini</a></i></span>
+						<span style="font-size:10pt;"><i>Penggunaan paket ini untuk area 4G LTE XL,<br />Cek lokasi instalasi perangkatmu <a target="_blank" href="https://4g.xl.co.id/coverage">disini</a></i></span>
 					</form>
 				</div>
 			</div>
