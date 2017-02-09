@@ -61,7 +61,7 @@ error_reporting(0);
 				<label>Alamat Pemasangan Super Bundle:</label>
 				<!--input type="text" name="address" value="" placeholder="" autocomplete="off" /><br /-->
 				<textarea class="goWidth" name="address" rows="5" placeholder="" autocomplete="off"></textarea><br />
-				<label><input id="sendlocation" type="checkbox" name="sendlocation" value="1" /> Kirim lokasi saya (<i><a href="javascript:showFAQ();">kenapa?</a></i>)</label>
+				<!--label><input id="sendlocation" type="checkbox" name="sendlocation" value="1" /> Kirim lokasi saya (<i><a href="javascript:showFAQ();">kenapa?</a></i>)</label-->
 				<center><input type="Submit" name="submit" id="submit" value="Kirim" class="button button-primary"/></center>
 				<br /><br />
 				<center><span style="font-size:10pt;"><i>Penggunaan paket ini hanya untuk area 4G LTE XL, Silahkan cek lokasi instalasi perangkatmu <a target="_blank" href="https://4g.xl.co.id/coverage">disini</a></i></span></center>
