@@ -5,7 +5,7 @@ $name = $_POST['name']!=''?$_POST['name']:'';
 $phone = $_POST['phone']!=''?$_POST['phone']:'';
 $submit = $_POST['submit']!=''?$_POST['submit']:'';
 
-if (strtoupper($submit)=='KIRIM'){
+if (strtoupper($submit)!=''){
 	$redir = '';
 	if ($name!='' && $phone!=''){
 		//insert to database
