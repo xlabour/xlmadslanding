@@ -1,5 +1,6 @@
 <?php
 error_reporting(0);
+date_default_timezone_set('Asia/Jakarta');
 
 $name = $_POST['name']!=''?$_POST['name']:'';
 $phone = $_POST['phone']!=''?$_POST['phone']:'';
